@@ -128,12 +128,12 @@
 )
 (deffacts Graph-Boss-Transitions-Ask-For-Raise
     (Transition
-        (current-question-id ask-for-raise)
+        (current-question-id boss-ask-for-raise)
         (answer yes)
         (next-question-id stop-office)
     )
     (Transition
-        (current-question-id ask-for-raise)
+        (current-question-id boss-ask-for-raise)
         (answer no)
         (next-question-id boss-promotion)
     )
