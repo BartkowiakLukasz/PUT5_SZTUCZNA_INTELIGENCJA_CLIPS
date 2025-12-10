@@ -5,13 +5,24 @@ env.load("drinks.clp")
 env.reset()
 while (1):
     question = None
+    result = None
     facts = env.facts()
     for fact in facts:
         if (fact.template.name == "Question"):
             question = fact
             break
+        if (fact.template.name == "Result"):
+            result = fact
+            break
     if question is None:
-        print("Koniec pytan :)")
+        print(f"Then You should order: {result['recommendation']}")
+        # for fact in env.facts():
+        #     print(fact)
+        print(f"Path: ", end="")
+        for path in result['path']:
+            full_path = "->".join(result['path'])
+        print(full_path)
+        #print(f"Path: {result['path']}")
         break
     print(f"Question: {question['question-text']}")
     y = 1
