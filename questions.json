@@ -1,0 +1,296 @@
+{
+    "q-who": {
+        "text": "Z kim wychodzisz na drinka?",
+        "options": {
+            "Z szefem / szefową": "boss",
+            "Z kolegą z pracy": "colleague",
+            "Z klientem": "client",
+            "W grupie": "group"
+        }
+    },
+    "q-boss-invited": {
+        "text": "Czy to on/ona zaprosił(a) Cię na drinka?",
+        "options": {
+            "Tak, zostałem zaproszony": "yes",
+            "Nie, to ja inicjuję": "no"
+        }
+    },
+    "q-boss-my-intent": {
+        "text": "Jaki jest twój cel spotkania?",
+        "options": {
+            "Poprosić o podwyżkę": "raise",
+            "Poprosić o awans": "promotion",
+            "Podrywasz szefa": "seduction",
+            "Żadne z powyższych": "other"
+        }
+    },
+    "q-boss-celebrating": {
+        "text": "Czy świętujecie jakąś okazję?",
+        "options": {
+            "Tak, jest okazja!": "yes",
+            "Nie, po prostu idziemy": "no"
+        }
+    },
+    "q-boss-trouble": {
+        "text": "Czy martwisz się, że masz kłopoty w pracy?",
+        "options": {
+            "Tak, boję się zwolnienia/ochrzanu": "yes",
+            "Nie, atmosfera jest czysta": "no"
+        }
+    },
+    "q-talk-back": {
+        "text": "Czy zamierzasz pyskować lub się kłócić?",
+        "options": {
+            "Tak, powiem co myślę!": "yes",
+            "Nie, będę pokorny": "no"
+        }
+    },
+    "q-boss-sleep": {
+        "text": "Czy wyczuwasz, że szef(owa) próbuje Cię zaciągnąć do łóżka?",
+        "options": {
+            "Tak, jest taki klimat": "yes",
+            "Nie, pełen profesjonalizm": "no"
+        }
+    },
+    "q-boss-good-idea": {
+        "text": "Jesteś pewien, że to dobry pomysł?",
+        "options": {
+            "Tak, absolutnie": "yes",
+            "Nie, to może być błąd": "no"
+        }
+    },
+    "q-client-intent": {
+        "text": "Jaki jest twój główny cel spotkania z klientem?",
+        "options": {
+            "Chcę zamknąć deal / sprzedaż": "close-deal",
+            "Shmoozing / Budowanie relacji (networking)": "shmoozing",
+            "W sumie nie mam celu / nie wiem": "no-agenda"
+        }
+    },
+    "q-expense-account": {
+        "text": "Czy masz duży budżet reprezentacyjny (expense account)?",
+        "options": {
+            "Tak, firma płaci": "yes",
+            "Nie, budżet jest napięty": "no"
+        }
+    },
+    "q-dinner": {
+        "text": "Czy po drinkach musicie iść na kolację?",
+        "options": {
+            "Tak": "yes",
+            "Nie": "no"
+        }
+    },
+    "q-client-drinker": {
+        "text": "Czy ten klient/kontakt to 'mocny zawodnik' w piciu?",
+        "options": {
+            "Tak, dużo pije": "yes",
+            "Nie, pije mało lub wcale": "no"
+        }
+    },
+    "q-client-mormon": {
+        "text": "Czy klient jest Mormonem (lub abstynentem z przekonania)?",
+        "options": {
+            "Tak": "yes",
+            "Nie": "no"
+        }
+    },
+    "q-keep-up": {
+        "text": "Czy czujesz presję, żeby dotrzymywać mu kroku w piciu?",
+        "options": {
+            "Tak, muszę pić tyle co on": "yes",
+            "Nie, mogę spasować": "no"
+        }
+    },
+    "q-official": {
+        "text": "Czy jest to oficjalne wyjście służbowe?",
+        "options": {
+            "Tak, oficjalna funkcja": "yes",
+            "Nie, luźne wyjście": "no"
+        }
+    },
+    "q-event-type": {
+        "text": "Jaki jest charakter tej imprezy?",
+        "options": {
+            "Nagroda za wyniki / Sukces": "performance-reward",
+            "Impreza świąteczna (Wigilia firmowa)": "holiday-party",
+            "Pożegnanie pracownika": "going-away"
+        }
+    },
+    "q-like-people": {
+        "text": "Czy lubisz ludzi, z którymi wychodzisz?",
+        "options": {
+            "Tak": "yes",
+            "Nie": "no"
+        }
+    },
+    "q-write-off": {
+        "text": "Czy możesz to wrzucić w koszty (firma stawia)?",
+        "options": {
+            "Tak": "yes",
+            "Nie": "no"
+        }
+    },
+    "q-like-guest": {
+        "text": "Czy lubisz osobę, którą żegnacie?",
+        "options": {
+            "Tak": "yes",
+            "Nie": "no"
+        }
+    },
+    "q-wasted": {
+        "text": "Czy możesz się bezpiecznie 'zrobić' (upić)?",
+        "options": {
+            "Tak, bez spiny": "yes",
+            "Nie, muszę uważać": "no"
+        }
+    },
+    "q-friday": {
+        "text": "Czy dzisiaj jest piątek wieczór?",
+        "options": {
+            "Tak": "yes",
+            "Nie": "no"
+        }
+    },
+    "q-career": {
+        "text": "Czy planujesz pracować w tej firmie przez długi czas?",
+        "options": {
+            "Tak, zależy mi na karierze": "yes",
+            "Nie, to tylko przystanek": "no"
+        }
+    },
+    "q-major": {
+        "text": "Czy to wyjątkowe wydarzenie?",
+        "options": {
+            "Tak": "yes",
+            "Nie": "no"
+        }
+    },
+    "q-col-reason": {
+        "text": "W jakim celu wychodzisz z kolegą/koleżanką?",
+        "options": {
+            "Ponarzekać na pracę": "gripe",
+            "Poprosić o radę": "ask-advice",
+            "Udzielić rady": "give-advice"
+        }
+    },
+    "q-col-expensable": {
+        "text": "Czy można to wrzucić w koszty firmy (expense account)?",
+        "options": {
+            "Tak, firma płaci": "yes",
+            "Nie, płacimy sami": "no"
+        }
+    },
+    "q-col-companion-gender": {
+        "text": "Czy Twój towarzysz to mężczyzna?",
+        "options": {
+            "Tak": "male",
+            "Nie (Kobieta)": "female"
+        }
+    },
+    "q-col-girls-night": {
+        "text": "Czy to typowy 'babski wieczór' (girls night)?",
+        "options": {
+            "Tak": "yes",
+            "Nie": "no"
+        }
+    },
+    "q-col-fired": {
+        "text": "Czy boisz się, że zaraz wylecisz z pracy?",
+        "options": {
+            "Tak, grozi mi zwolnienie": "yes",
+            "Nie, jestem bezpieczny": "no"
+        }
+    },
+    "q-col-promotion": {
+        "text": "Czy to spotkanie to spisek, żeby dostać awans?",
+        "options": {
+            "Tak, kombinuję": "yes",
+            "Nie": "no"
+        }
+    },
+    "q-col-helper": {
+        "text": "Czy ta osoba jest w stanie realnie Ci pomóc?",
+        "options": {
+            "Tak": "yes",
+            "Nie": "no"
+        }
+    },
+    "q-col-bitchfest": {
+        "text": "Czy to spotkanie zamieni się w festiwal narzekania (bitchfest)?",
+        "options": {
+            "Tak, na bank": "yes",
+            "Nie, raczej nie": "no"
+        }
+    },
+    "q-col-invited": {
+        "text": "Czy to on/ona Cię zaprosił(a)?",
+        "options": {
+            "Tak, zostałem zaproszony": "yes",
+            "Nie, to ja inicjuję": "no"
+        }
+    },
+    "q-col-handle-truth": {
+        "text": "Czy ta osoba potrafi znieść szczerą krytykę/prawdę?",
+        "options": {
+            "Tak": "yes",
+            "Nie": "no"
+        }
+    },
+    "q-col-perf-warning": {
+        "text": "Czy zamierzasz dać jej/jemu oficjalne ostrzeżenie (performance warning)?",
+        "options": {
+            "Tak": "yes",
+            "Nie": "no"
+        }
+    },
+    "q-col-crier": {
+        "text": "Czy ta osoba łatwo wpada w płacz (is a crier)?",
+        "options": {
+            "Tak, ryczy z byle powodu": "yes",
+            "Nie, twarda sztuka": "no"
+        }
+    },
+    "recommendations": {
+        "drink-stop-office": {
+            "title": "STOP! WRACAJ DO BIURA",
+            "description": "Sprawy zawodowe, takie jak podwyżki czy awanse, nie powinny być omawiane przy alkoholu. Wróć do pracy i umów oficjalne spotkanie."
+        },
+        "drink-stop-life": {
+            "title": "STOP! OGARNIJ SIĘ (GET A LIFE)",
+            "description": "Brutalny sygnał alarmowy: marnujesz swój prywatny czas bez konkretnego celu, co sugeruje, że Twoje życie nie ma sensu."
+        },
+        "drink-martini": {
+            "title": "Martini",
+            "description": "Wybór na sytuacje ekstremalne: gdy potrzebujesz silnego znieczulenia na nadchodzącą katastrofę, płynnej odwagi do ryzykownej decyzji, lub po prostu klasycznego, mocnego uderzenia na koszt firmy."
+        },
+        "drink-wine": {
+            "title": "Wino",
+            "description": "To elegancki i bezpieczny kompromis dla sytuacji, w których musisz zachować profesjonalizm i pełną kontrolę, unikając ryzyka, jakie niesie mocniejszy alkohol lub zbytni luz."
+        },
+        "drink-bubbly": {
+            "title": "Szampan / Wino musujące",
+            "description": "Zarezerwowane dla zwycięzców i lojalnych graczy zespołowych: służy do wznoszenia toastów za sukcesy, honorowania lubianych kolegów lub manifestowania radości z bycia częścią firmy."
+        },
+        "drink-fancy": {
+            "title": "Wymyślny Koktajl (Fancy)",
+            "description": "Idealny rekwizyt społeczny: pozwala błyszczeć podczas flirtu lub babskiego wieczoru, a w mniej komfortowych sytuacjach biznesowych lub z nielubianą grupą daje Ci coś, co możesz powoli sączyć, by zająć czymś ręce."
+        },
+        "drink-zero": {
+            "title": "Napój Bezalkoholowy",
+            "description": "Musisz zachować trzeźwy umysł. Poproś o 'dorosłą sodę' – barmani lubią być kreatywni, a Ty nie wyjdziesz na sztywniaka pijącego samą wodę."
+        },
+        "drink-highball": {
+            "title": "Highball (np. Whisky z sodą)",
+            "description": "Rozwiązanie taktyczne na długi dystans: duża objętość drinka pozwala bezpiecznie dotrzymać tempa pijącemu klientowi, a jego neutralny charakter pasuje do rutynowych spotkań, które nie wymagają ani szampana, ani mocnych wrażeń."
+        },
+        "drink-beer": {
+            "title": "Piwo",
+            "description": "Uniwersalny, niezobowiązujący wybór na spotkania z ludźmi, przy których możesz być sobą, na sesje narzekania na pracę, lub po prostu zawsze wtedy, gdy firma nie pokrywa rachunku."
+        },
+        "drink-lowball": {
+            "title": "Lowball (np. Whisky on rocks)",
+            "description": "Drink z charakterem dla mentora lub konesera: dodaje powagi przy udzielaniu rad, pasuje do męskich rozmów o pracy i podkreśla klasę, gdy spędzasz czas z lubianą ekipą na koszt firmy."
+        }
+  }
+}
