@@ -1,0 +1,2 @@
+PYTHON==3.14.0
+clipspy==1.0.6
